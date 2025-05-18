@@ -1,0 +1,27 @@
+name: CI untuk React App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-dan-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        name: Ambil kode
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependensi
+        run: npm install
+
+      - name: Jalankan tes
+        run: npm test
+
+      - name: Build aplikasi
+        run: npm run build
