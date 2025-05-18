@@ -1,3 +1,6 @@
+![CI](https://github.com/ihramaqil/Organisasi-Kemawasiswaan-UH/actions/workflows/ci.yml/badge.svg)
+
+
 ### **Sistem Informasi Manajemen Organisasi Mahasiswa**
 **Deskripsi Singkat**: Sistem ini dirancang untuk membantu pengelolaan organisasi mahasiswa di fakultas, mencakup informasi tentang struktur organisasi, anggota, dan agenda kegiatan. Mahasiswa dapat melihat profil organisasi dan agenda yang tersedia, sementara admin organisasi dapat mengelola data anggota, struktur organisasi, serta jadwal kegiatan.
 ---
